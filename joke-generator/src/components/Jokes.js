@@ -6,17 +6,15 @@ const Jokes = () => {
   const url = "http://api.icndb.com/jokes/random";
   const getJoke = () => {
     setIsLoading(true);
-    setTimeout(() => {
-      fetch(url)
-        .then((response) => {
-          return response.json();
-        })
-        .then((data) => {
-          console.log(data);
-          setJoke(data);
-          setIsLoading(false);
-        });
-    }, 3000);
+    fetch(url)
+      .then((response) => {
+        return response.json();
+      })
+      .then((data) => {
+        console.log(data);
+        setJoke(data);
+        setIsLoading(false);
+      });
   };
 
   useEffect(() => {
