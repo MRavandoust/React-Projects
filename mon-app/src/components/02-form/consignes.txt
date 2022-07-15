@@ -1,0 +1,3 @@
+Créer un formulaire qui contient deux inputs, un input pour le champs prénom et un autre input pour le champ password.
+
+l'objectif est de récupérer les saisies du formulaire et de les afficher sur notre page après l'envoi du formulaire si seulement le password contient bien un minimum de 8 caracteres et que le pseudo ne soit pas vide.

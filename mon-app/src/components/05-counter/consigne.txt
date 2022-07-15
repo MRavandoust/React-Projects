@@ -1,0 +1,6 @@
+Réaliser un counter 😎
+On doit avoir un button start qui permet de le lancer.
+Un button stop qui permet d'arrêter le counter.
+Un button reset qui permet d'initialiser notre counter à 0.
+Vous allez avoir besoin d'utiliser la méthode setInterval et clearInterval. 
+Bon chance 😗

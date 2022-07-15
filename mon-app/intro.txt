@@ -1,0 +1,23 @@
+Dependencies :  sont des dépendances qui sont nécessaire à notre code pour fonctionner,
+ aussi bien en local qu'en production.
+
+DevDependencies : sont uniquement nécessaires pour la phase de développement.
+
+Pour installer une dependence : 
+
+npm install nom-dependence 
+
+Exemple : npm install bootstrap 
+Exemple : npm i bootstrap
+
+Pour installer seulement dans DevDependencies : 
+
+Exemple : npm i bootstrap -D
+
+yarn add pour les dependencies
+yarn add --dev pour les DevDependencies
+
+Webpack
+c’est Webpack qui nous permet d’importer notre composant aussi facilement, avec import.
+Cet outil particulièrement utile est essentiel pour lier les fichiers entre eux, afin qu’ils soient
+interprétés par le navigateur. 
