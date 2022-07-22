@@ -1,0 +1,157 @@
+.text-wrape{
+   position: absolute;
+    bottom: 15rem;
+    background: rgba(0, 0, 0, .4);
+    color: white;
+    padding: 80px;
+    animation: slide-up 1s  0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide-up {
+    0% {
+      visibility: hidden;
+      bottom: 15rem;
+    }
+    100% {
+      visibility: visible;
+      bottom: 20rem;
+    }
+  }
+
+  @media screen and (max-width: 1350px) {
+    .text-wrape{
+        position: absolute;
+         bottom: 7rem;
+         background: rgba(0, 0, 0, .4);
+         color: white;
+         padding: 60px;
+         animation: slide-up 1s  0.5s;
+         animation-fill-mode: forwards;
+     }
+     
+     @keyframes slide-up {
+         0% {
+           visibility: hidden;
+           bottom: 7rem;
+         }
+         100% {
+           visibility: visible;
+           bottom: 10rem;
+         }
+       }
+  }
+
+  @media screen and (max-width: 1020px) {
+    .text-wrape{
+        position: absolute;
+         bottom: 3rem;
+         background: rgba(0, 0, 0, .4);
+         color: white;
+         padding: 40px;
+         animation: slide-up 1s  0.5s;
+         animation-fill-mode: forwards;
+     }
+     
+     @keyframes slide-up {
+         0% {
+           visibility: hidden;
+           bottom: 3rem;
+         }
+         100% {
+           visibility: visible;
+           bottom: 6rem;
+         }
+       }
+
+       .text-wrape h1 {
+        font-size: 3rem;
+       }
+       .text-wrape p{
+        font-size: 1rem;
+       }
+  }
+
+
+  @media screen and (max-width: 880px) {
+    .text-wrape{
+        position: absolute;
+         bottom: 50px;
+         background: rgba(0, 0, 0, .4);
+         color: white;
+         padding: 20px;
+         animation: slide-up 1s  0.5s;
+         animation-fill-mode: forwards;
+     }
+     
+     @keyframes slide-up {
+         0% {
+           visibility: hidden;
+           bottom: 50px;
+         }
+         100% {
+           visibility: visible;
+           bottom: 100px;
+         }
+       }
+
+       .text-wrape h1 {
+        font-size: 2rem;
+       }
+       .text-wrape p{
+        font-size: .9rem;
+       }
+  }
+
+  @media screen and (max-width: 640px) {
+    .text-wrape{
+        position: absolute;
+         bottom: 20px;
+         background: rgba(0, 0, 0, .4);
+         color: white;
+         padding: 10px;
+         animation: slide-up 1s  0.5s;
+         animation-fill-mode: forwards;
+     }
+     
+     @keyframes slide-up {
+         0% {
+           visibility: hidden;
+           bottom: 20px;
+         }
+         100% {
+           visibility: visible;
+           bottom: 60px;
+         }
+       }
+  }
+
+  @media screen and (max-width: 490px) {
+    .text-wrape{
+        position: absolute;
+         bottom: 0px;
+         background: rgba(0, 0, 0, .4);
+         color: white;
+         padding: 10px;
+         animation: slide-up 1s  0.5s;
+         animation-fill-mode: forwards;
+     }
+     
+     @keyframes slide-up {
+         0% {
+           visibility: hidden;
+           bottom: 0px;
+         }
+         100% {
+           visibility: visible;
+           bottom: 20px;
+         }
+       }
+
+       .text-wrape h1 {
+        font-size: 1.7rem;
+       }
+       .text-wrape p{
+        font-size: .8rem;
+       }
+  }

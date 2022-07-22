@@ -1,0 +1,19 @@
+.footer {
+    background-color: #212529;
+    color: #fff;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 45px;
+    height: 8rem;
+    
+  }
+
+  .footer p {
+    
+  }
+
+  .footer a {
+    text-decoration: none;
+    color: #c7c7c7;
+  }
+  

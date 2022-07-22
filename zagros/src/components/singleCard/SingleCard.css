@@ -1,0 +1,17 @@
+.singleCard {
+    width: 290px;
+    background-color: #fff;
+    opacity: 1;
+    margin: 10px auto;
+
+}
+
+.singleCard img{
+    width: 100%;
+    
+}
+
+
+.singleCard .cardBody{
+ padding: 10px;
+}
